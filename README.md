@@ -1,7 +1,9 @@
 # Minimal Black Pill (STM32F4xx) BOB for grblHAL 
 Single layer breakout board for the popular Black Pill (*NOT Blue Pill*). Features 4 axes, 5V outputs, optoisolated inputs.
+
 Firmware: [grblHAL](https://github.com/terjeio/grblHAL)
-The goal of this project was to replace a classical Grbl setup on an Arduino Uno/Nano, with minimal effort.
+
+The goal of this project was to replace a classical Grbl setup on an Arduino Uno/Nano, with minimal effort and minimal features (which is enough for most honny machines anyway).
 All inputs are mapped to one side of the board, all outputs (except spindle PWM) are on the other. 
 This allows for a very clean single sided design and is very suitable milling, UV exposing or even toner transfer methods.
 The only critical requirements for manufacturing - minimal separation between traces is 0.2mm.
@@ -17,7 +19,9 @@ The only critical requirements for manufacturing - minimal separation between tr
 
 ## Notes
 
-### Vreg can be a simple 7805 or as in my implementation (see images folder) - a tiny DC-DC converter
+### Vreg can be a simple 7805 or as in my implementation (also see images folder) - a tiny DC-DC converter. The latter happily accepts up to 24V input.
+![DC-DC converter](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL/blob/main/Images/buck_converter.jpg?raw=true)
+
 ### This is only tested on genuine [WeAct Black Pill V3](https://github.com/WeActTC/MiniF4-STM32F4x1).
 Other/older versions of the board can have slightly different mappings.
 Also I've read that blocking USB power diodes are not present on some older variants of the board.
