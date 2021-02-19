@@ -16,6 +16,8 @@ The only critical requirements for manufacturing - minimal separation between tr
   * All I/O done on 3.5mm pitch connectors.
 ![Top view](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL/blob/main/Images/Mini%20BP%20BOB%20PCB%20top.png?raw=true)
 ![Bottom view](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL/blob/main/Images/Mini%20BP%20BOB%20PCB%20bottom.png?raw=true)
+![Assembled](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL/blob/main/Images/Assembled.jpg?raw=true)
+![Control box](https://github.com/avizienis/Minimal-Black-Pill--STM32F4xx-BOB-for-grblHAL/blob/main/Images/Controller%20box.jpg?raw=true)
 
 ## Notes
 
