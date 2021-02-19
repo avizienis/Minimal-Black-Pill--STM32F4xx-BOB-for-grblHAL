@@ -3,7 +3,7 @@ Single layer breakout board for the popular Black Pill (*NOT Blue Pill*). Featur
 
 Firmware: [grblHAL](https://github.com/terjeio/grblHAL)
 
-The goal of this project was to replace a classical Grbl setup on an Arduino Uno/Nano, with minimal effort and minimal features (which is enough for most honny machines anyway).
+The goal of this project was to replace a classical Grbl setup on an Arduino Uno/Nano, with minimal effort and minimal features (which is enough for most hobby machines anyway).
 All inputs are mapped to one side of the board, all outputs (except spindle PWM) are on the other. 
 This allows for a very clean single sided design and is very suitable milling, UV exposing or even toner transfer methods.
 The only critical requirements for manufacturing - minimal separation between traces is 0.2mm.
